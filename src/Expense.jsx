@@ -1,5 +1,5 @@
 function Expense() {
-  return <div>Expense Tracker</div>;
+  return <div>Actual Code</div>;
 }
 
 export default Expense;

@@ -1,10 +1,13 @@
-import Expense from "./Expense"
+import Expense from './Expense';
+import Header from './components/Header';
 
 function App() {
-
   return (
-    <Expense />
-  )
+    <>
+      <Header />
+      <Expense />
+    </>
+  );
 }
 
-export default App
+export default App;
