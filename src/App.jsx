@@ -5,9 +5,11 @@ import TransactionList from './components/TransactionList';
 import AddTransaction from './components/AddTransaction';
 import './App.css';
 
+import { GlobalProvider } from './Context/GlobalState';
+
 function App() {
   return (
-    <>
+    <GlobalProvider>
       <Header />
       <div className="container">
         <Balance />
@@ -15,7 +17,7 @@ function App() {
         <TransactionList />
         <AddTransaction />
       </div>
-    </>
+    </GlobalProvider>
   );
 }
 
